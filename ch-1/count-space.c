@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main() {
+int main() {
 	int c, count;
 	
 	count = 0;
@@ -11,4 +11,6 @@ main() {
 		}
 	}
 	printf("%d\n", count);
+
+	return 0;
 }

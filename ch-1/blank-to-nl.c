@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void main() {
+int main() {
 	int c;
 	bool blank;
 
@@ -17,4 +17,6 @@ void main() {
 			printf("%c", c);
 		}
 	}
+
+	return 0;
 }
